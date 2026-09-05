@@ -106,19 +106,26 @@ def rotowire_lineups():
         for side in ("home", "visit"):
             m = re.search(r'lineup__list is-%s">(.*?)</ul>' % side, block, re.S)
             if not m:
-                sides[side] = ("", [])
+                sides[side] = ("", [], {})
                 continue
             seg = m.group(1)
             st = re.search(r'lineup__status[^>]*>.*?</div>\s*([^<]+)', seg, re.S)
             status = st.group(1).strip() if st else ""
-            players = re.findall(r'lineup__pos[^>]*>([^<]*)</div>\s*<a title="([^"]+)"', seg)
-            sides[side] = (status, [(unescape(n).strip(), p.strip()) for p, n in players])
+            # Rotowire lists the XI, then titled sections such as "Injuries" / "Substitutes".
+            parts = re.split(r'<li class="lineup__title[^"]*">([^<]*)</li>', seg)
+            groups = {"XI": parts[0]}
+            for i in range(1, len(parts) - 1, 2):
+                groups[parts[i].strip()] = parts[i + 1]
+            def plist(chunk):
+                return [(unescape(n).strip(), p.strip()) for p, n in re.findall(r'lineup__pos[^>]*>([^<]*)</div>\s*<a title="([^"]+)"', chunk)]
+            sides[side] = (status, plist(groups["XI"]), {k: plist(v) for k, v in groups.items() if k != "XI"})
         out.append({
             "home": abbrs[0], "away": abbrs[1],
             "home_logo": logos[0] if logos else "", "away_logo": logos[1] if len(logos) > 1 else "",
             "time": time_txt,
             "home_status": sides["home"][0], "away_status": sides["visit"][0],
             "home_xi": sides["home"][1], "away_xi": sides["visit"][1],
+            "home_extra": sides["home"][2], "away_extra": sides["visit"][2],
         })
     return out
 

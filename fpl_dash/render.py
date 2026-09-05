@@ -94,21 +94,22 @@ def render(m):
 
     # ---- BRIEF ----
     h.append('<div class="grid"><div class="card wide" id="brief"><h2>📋 Tonight\'s brief</h2>')
-    chips = ", ".join(f'{k} (GW{v})' for k, v in ent["chips_used"].items()) or "none"
+    CHIP = {"bboost": "Bench Boost", "3xc": "Triple Captain", "freehit": "Free Hit", "wildcard": "Wildcard", "manager": "Manager"}
+    chips = ", ".join(f'{CHIP.get(k, k)} (GW{v})' for k, v in ent["chips_used"].items()) or "none"
     hist = ent["history"]
     last = hist[-1] if hist else {}
     h.append(f'<div class="stats"><div class="stat"><b>{ent["points"]}</b><span>Total pts</span></div><div class="stat"><b>{ent["overall_rank"]:,}</b><span>Overall rank</span></div>'
              f'<div class="stat"><b>{last.get("points","?")}</b><span>GW{m["cur_gw"]} pts</span></div><div class="stat"><b>£{ent["bank"]:.1f}m</b><span>In the bank</span></div>'
              f'<div class="stat"><b>£{ent["value"]:.1f}m</b><span>Team value</span></div><div class="stat"><b style="font-size:14px">{e(chips)}</b><span>Chips used</span></div></div>')
     if ent["active_chip"]:
-        h.append(f'<div class="ok">Active chip this GW: <b>{e(ent["active_chip"])}</b></div>')
+        h.append(f'<div class="ok">Active chip this GW: <b>{e(CHIP.get(ent["active_chip"], ent["active_chip"]))}</b></div>')
     flagged = [p for p in m["squad"] if flag_badge(p)]
     if flagged:
         h.append('<div class="alert"><b>Squad flags:</b> ' + ", ".join(f'{e(p["name"])} {flag_badge(p)} <span class="muted small">{e(p["news"])}</span>' for p in flagged) + "</div>")
     else:
         h.append('<div class="ok">No injury or suspension flags on your 15. ✅</div>')
     if m["my_lineup_alerts"]:
-        h.append('<div class="alert"><b>Lineup watch (Rotowire):</b> ' + "; ".join(f'{e(a["player"]["name"])} not in {e(a["status"].lower() or "predicted")} XI vs {a["vs"]}' + (f' <span class="badge">GW{a["gw"]}</span>' if a["gw"] else "") for a in m["my_lineup_alerts"]) + "</div>")
+        h.append('<div class="alert"><b>Lineup watch (Rotowire):</b> ' + "; ".join(f'{e(a["player"]["name"])} {e(a["kind"])} ({e(a["status"].lower() or "predicted")}) vs {a["vs"]}' + (f' <span class="badge">GW{a["gw"]}</span>' if a["gw"] else "") for a in m["my_lineup_alerts"]) + "</div>")
     if m["my_price_alerts"]:
         h.append('<div class="alert"><b>Price alerts on your players tonight:</b> ' + ", ".join(f'{e(p["name"])} {"📈" if p["lf_tonight"]>0 else "📉"} {int(p["lf_tonight"]*100)}%' for p in m["my_price_alerts"]) + "</div>")
     if m["suggestions"]:
@@ -189,7 +190,13 @@ def render(m):
     for p in m["injuries"][:40]:
         mine = any(s["id"] == p["id"] for s in m["squad"])
         h.append(f'<tr{" style=background:rgba(90,169,255,.08)" if mine else ""}><td>{pname(p)}</td><td class="num">{p["sel"]:.1f}</td><td>{flag_badge(p) or e(p["status_txt"])}</td><td class="small">{e(p["news"])} <span class="muted">{p["news_added"]}</span></td></tr>')
-    h.append("</table></div></div>")
+    h.append("</table></div>")
+    if m["rw_injuries"]:
+        by_team = {}
+        for x in m["rw_injuries"]:
+            by_team.setdefault(x["team"], []).append(x["name"])
+        h.append('<h3>Rotowire injury lists (often ahead of FPL flags)</h3><div class="small">' + " · ".join(f'<b>{t}</b>: {e(", ".join(n))}' for t, n in sorted(by_team.items())) + "</div>")
+    h.append("</div>")
 
     # ---- LINEUPS ----
     h.append('<div class="card wide" id="lineups"><h2>📋 Predicted / confirmed lineups <span class="badge">Rotowire</span></h2>')
@@ -200,8 +207,11 @@ def render(m):
         def side(s):
             st = s["status"]
             cls = "g" if "onfirm" in st else "a" if st else ""
-            xi = ", ".join(f'<span class="pill{" me" if any(n.split()[-1].lower() in mn.lower() or mn.lower() in n.lower() for mn in s["mine"]) else ""}">{e(n)}</span>' for n in s["xi"]) or '<span class="muted">not yet</span>'
-            return f'<div><b>{s["team"]}</b> <span class="badge {cls}">{e(st or "TBC")}</span><div class="small" style="margin-top:4px">{xi}</div></div>'
+            def pills(names):
+                return ", ".join(f'<span class="pill{" me" if any(n.split()[-1].lower() in mn.lower() or mn.lower() in n.lower() for mn in s["mine"]) else ""}">{e(n)}</span>' for n in names)
+            xi = pills(s["xi"]) or '<span class="muted">not yet</span>'
+            extra = "".join(f'<div class="small muted" style="margin-top:3px"><b>{e(k)}:</b> {pills(v)}</div>' for k, v in s["extra"].items() if v)
+            return f'<div><b>{s["team"]}</b> <span class="badge {cls}">{e(st or "TBC")}</span><div class="small" style="margin-top:4px">{xi}</div>{extra}</div>'
         h.append(f'<div class="card" style="padding:10px"><div class="muted small">{e(L["time"])}' + (f' · <b>GW{L["gw"]}</b>' if L["gw"] else "") + f'</div>{side(L["home"])}<div style="height:6px"></div>{side(L["away"])}</div>')
     h.append("</div></div>")
 

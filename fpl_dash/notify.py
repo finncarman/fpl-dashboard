@@ -15,7 +15,7 @@ def summary_text(m, url=None):
     if flagged:
         L.append("\n🏥 Flags: " + "; ".join(f'{p["name"]} ({p["chance"] if p["chance"] is not None else p["status_txt"]}{"%" if p["chance"] is not None else ""})' for p in flagged))
     if m["my_lineup_alerts"]:
-        L.append("👀 Lineup watch: " + "; ".join(f'{a["player"]["name"]} not in {a["status"].lower() or "predicted"} XI vs {a["vs"]}' + (f' (GW{a["gw"]})' if a["gw"] else "") for a in m["my_lineup_alerts"]))
+        L.append("👀 Lineup watch: " + "; ".join(f'{a["player"]["name"]} {a["kind"]} ({a["status"].lower() or "predicted"}) vs {a["vs"]}' + (f' (GW{a["gw"]})' if a["gw"] else "") for a in m["my_lineup_alerts"]))
     if m["my_price_alerts"]:
         L.append("💷 Your prices tonight: " + ", ".join(f'{p["name"]} {"📈" if p["lf_tonight"]>0 else "📉"}{int(p["lf_tonight"]*100)}%' for p in m["my_price_alerts"]))
     if m["risers"]:
