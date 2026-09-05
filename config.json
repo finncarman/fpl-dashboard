@@ -2,14 +2,31 @@
   "entry_id": 3160882,
   "manager_name": "Finn",
   "leagues": [
-    {"id": 910639,  "name": "Family League",        "top_n": 8},
-    {"id": 1076074, "name": "Kuh-Cox-Carman League", "top_n": 8},
-    {"id": 545961,  "name": "50 shades of Andre Gray", "top_n": 10},
-    {"id": 1611243, "name": "Thrive-a-side",         "top_n": 10}
+    {
+      "id": 910639,
+      "name": "Family League",
+      "top_n": 8
+    },
+    {
+      "id": 1076074,
+      "name": "Kuh-Cox-Carman League",
+      "top_n": 8
+    },
+    {
+      "id": 545961,
+      "name": "50 shades of Andre Gray",
+      "top_n": 10
+    }
   ],
   "news_feeds": [
-    {"name": "BBC", "url": "https://feeds.bbci.co.uk/sport/football/premier-league/rss.xml"},
-    {"name": "Guardian", "url": "https://www.theguardian.com/football/premierleague/rss"}
+    {
+      "name": "BBC",
+      "url": "https://feeds.bbci.co.uk/sport/football/premier-league/rss.xml"
+    },
+    {
+      "name": "Guardian",
+      "url": "https://www.theguardian.com/football/premierleague/rss"
+    }
   ],
   "deadline_window_hours": 6,
   "daily_build_hour_uk": 20
