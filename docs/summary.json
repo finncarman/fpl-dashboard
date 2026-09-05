@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-05T20:24:01.629071+00:00",
+ "generated": "2026-09-05T20:26:40.539561+00:00",
  "next_gw": 4,
  "deadline": "2026-09-12T12:30:00+00:00",
  "entry": {
@@ -75,11 +75,11 @@
    "pos": "DEF",
    "team_short": "NFO",
    "price": 5.0,
-   "form": 5.0,
-   "xgi90": 0.12,
+   "form": 4.7,
+   "xgi90": 0.11,
    "mins_share": 1.0,
    "sel": 8.2,
-   "proj3": 5.61,
+   "proj3": 5.08,
    "status": "a",
    "news": "",
    "chance": null,
@@ -290,7 +290,7 @@
       "form 3.3, 5.0 ppg",
       "xGI/90 1.24",
       "next 3: TOT(A) IPS(H) HUL(A) (FDR 2.3)",
-      "5.1% owned (differential)",
+      "5.0% owned (differential)",
       "price rise likely tonight (103%), buy before it goes up"
      ],
      "delta": 4.14
@@ -303,7 +303,7 @@
       "next 3: LEE(A) HUL(H) COV(A) (FDR 2.3)",
       "15.9% owned",
       "price rise likely tonight (118%), buy before it goes up",
-      "84k net transfers in this GW"
+      "83k net transfers in this GW"
      ],
      "delta": 2.75
     },
