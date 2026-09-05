@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-05T19:54:19.218984+00:00",
+ "generated": "2026-09-05T19:55:34.918565+00:00",
  "next_gw": 4,
  "deadline": "2026-09-12T12:30:00+00:00",
  "entry": {
@@ -466,6 +466,11 @@
  "lineup_alerts": [
   {
    "player": "Foden",
+   "status": "Confirmed",
+   "vs": "COV"
+  },
+  {
+   "player": "Ndiaye",
    "status": "Confirmed",
    "vs": "COV"
   },

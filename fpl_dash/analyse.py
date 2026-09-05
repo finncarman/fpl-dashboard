@@ -313,18 +313,38 @@ def build(cfg):
             continue
         gw = lineup_gw(h, a, L["time"])
         sides = []
-        for tid, xi, status in ((h, L["home_xi"], L["home_status"]), (a, L["away_xi"], L["away_status"])):
+        for tid, xi, status, extra in ((h, L["home_xi"], L["home_status"], L["home_extra"]), (a, L["away_xi"], L["away_status"], L["away_extra"])):
             names = {norm(n) for n, _ in xi}
+            extra_names = {k: {norm(n) for n, _ in v} for k, v in extra.items()}
             mine = [p for p in squad if p["team"] == tid]
-            for p in mine:
+
+            def matches(p, pool):
                 key_full, key_web = norm(p["full"]), norm(p["name"])
-                hit = any(key_web and (key_web in nm or nm.endswith(key_web)) or key_full == nm for nm in names)
-                if xi and not hit:
-                    my_lineup_alerts.append({"player": p, "status": status.replace(" Lineup", ""), "gw": gw,
-                                             "vs": tshort[a] if tid == h else tshort[h]})
-            sides.append({"team": tshort[tid], "status": status, "xi": [n for n, _ in xi], "mine": [p["name"] for p in mine]})
+                return any(key_web and (key_web in nm or nm.endswith(key_web)) or key_full == nm for nm in pool)
+
+            for p in mine:
+                if not xi:
+                    continue
+                vs = tshort[a] if tid == h else tshort[h]
+                where = next((k for k, pool in extra_names.items() if matches(p, pool)), None)
+                if where:
+                    my_lineup_alerts.append({"player": p, "status": status.replace(" Lineup", ""), "gw": gw, "vs": vs,
+                                             "kind": f"listed under {where}"})
+                elif not matches(p, names):
+                    my_lineup_alerts.append({"player": p, "status": status.replace(" Lineup", ""), "gw": gw, "vs": vs,
+                                             "kind": "not in XI"})
+            sides.append({"team": tshort[tid], "status": status, "xi": [n for n, _ in xi],
+                          "extra": {k: [n for n, _ in v] for k, v in extra.items()}, "mine": [p["name"] for p in mine]})
         lineup_view.append({"time": L["time"], "gw": gw, "home": sides[0], "away": sides[1]})
     my_lineup_alerts.sort(key=lambda a: (-(a["gw"] or 0), a["player"]["slot"]))
+    # Rotowire injury lists per team: catches knocks before FPL flags them
+    rw_injuries = []
+    for L in lineup_view:
+        for side in (L["home"], L["away"]):
+            for k, names in side["extra"].items():
+                if "njur" in k or "uspen" in k:
+                    for n in names:
+                        rw_injuries.append({"team": side["team"], "name": n, "label": k, "gw": L["gw"]})
 
     # ----- rivals -----
     leagues_view = []
@@ -378,7 +398,7 @@ def build(cfg):
         "squad": squad, "suggestions": suggestions, "sells": sells, "captain": cap[:4],
         "risers": risers, "fallers": fallers, "my_price_alerts": my_price_alerts, "changed_today": changed_today,
         "top_transfers": top_transfers, "injuries": injuries, "shortlist": shortlist, "top_by_pos": top_by_pos,
-        "lineups": lineup_view, "my_lineup_alerts": my_lineup_alerts, "leagues": leagues_view,
+        "lineups": lineup_view, "my_lineup_alerts": my_lineup_alerts, "rw_injuries": rw_injuries, "leagues": leagues_view,
         "injury_news": injury_news, "other_news": other_news, "teams": bs["teams"], "tshort": tshort,
         "fixture_table": [{"team": t["short_name"], "name": t["name"], "run": fixture_run(t["id"], 6), "avg": avg_fdr(t["id"], 6)}
                           for t in sorted(bs["teams"], key=lambda t: avg_fdr(t["id"], 6))],
