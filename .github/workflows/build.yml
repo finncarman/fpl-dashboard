@@ -4,6 +4,9 @@ on:
   schedule:
     - cron: "*/30 * * * *"   # every 30 min; build.py --gate decides whether to actually build
   workflow_dispatch:          # manual "Run workflow" button = refresh on demand
+  push:                       # any code push = rebuild (bot commits to docs/ are ignored to avoid loops)
+    branches: [main]
+    paths-ignore: ["docs/**", "data/**"]
 
 permissions:
   contents: write
@@ -26,7 +29,7 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           DASHBOARD_URL: ${{ vars.DASHBOARD_URL }}
         run: |
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+          if [ "${{ github.event_name }}" != "schedule" ]; then
             python3 build.py --notify
           else
             python3 build.py --gate --notify
