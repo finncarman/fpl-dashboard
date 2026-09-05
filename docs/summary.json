@@ -1,14 +1,14 @@
 {
- "generated": "2026-09-05T19:55:50.313951+00:00",
+ "generated": "2026-09-05T20:24:01.629071+00:00",
  "next_gw": 4,
  "deadline": "2026-09-12T12:30:00+00:00",
  "entry": {
   "name": "Yo Yo Yohanna",
   "manager": "Finn Carman Kuh",
-  "overall_rank": 875996,
-  "points": 203,
-  "gw_points": 47,
-  "gw_rank": 2078747,
+  "overall_rank": 823750,
+  "points": 204,
+  "gw_points": 48,
+  "gw_rank": 1846722,
   "bank": 0.5,
   "value": 100.4,
   "free_transfers": null,
@@ -49,7 +49,7 @@
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": 0.306,
+   "lf_tonight": 0.299,
    "slot": 2,
    "is_captain": false
   },
@@ -66,7 +66,7 @@
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": 0.611,
+   "lf_tonight": 0.609,
    "slot": 3,
    "is_captain": false
   },
@@ -75,11 +75,11 @@
    "pos": "DEF",
    "team_short": "NFO",
    "price": 5.0,
-   "form": 4.7,
-   "xgi90": 0.11,
+   "form": 5.0,
+   "xgi90": 0.12,
    "mins_share": 1.0,
    "sel": 8.2,
-   "proj3": 5.08,
+   "proj3": 5.61,
    "status": "a",
    "news": "",
    "chance": null,
@@ -100,7 +100,7 @@
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": -0.028,
+   "lf_tonight": -0.027,
    "slot": 5,
    "is_captain": false
   },
@@ -117,7 +117,7 @@
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": -0.089,
+   "lf_tonight": -0.088,
    "slot": 6,
    "is_captain": false
   },
@@ -134,7 +134,7 @@
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": 0.615,
+   "lf_tonight": 0.618,
    "slot": 7,
    "is_captain": false
   },
@@ -151,7 +151,7 @@
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": 0.426,
+   "lf_tonight": 0.427,
    "slot": 8,
    "is_captain": false
   },
@@ -168,7 +168,7 @@
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": -0.066,
+   "lf_tonight": -0.065,
    "slot": 9,
    "is_captain": false
   },
@@ -202,7 +202,7 @@
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": -0.941,
+   "lf_tonight": -0.938,
    "slot": 11,
    "is_captain": false
   },
@@ -219,7 +219,7 @@
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": -0.374,
+   "lf_tonight": -0.375,
    "slot": 12,
    "is_captain": false
   },
@@ -236,7 +236,7 @@
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": 0.295,
+   "lf_tonight": 0.29,
    "slot": 13,
    "is_captain": false
   },
@@ -253,7 +253,7 @@
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": -0.53,
+   "lf_tonight": -0.528,
    "slot": 14,
    "is_captain": false
   },
@@ -281,7 +281,7 @@
    "reasons": [
     "tough run next 3: BOU(A) CHE(H) AVL(A) (avg FDR 3.7)",
     "poor form (1.3) for a 8.0m player",
-    "price fall risk tonight (-94% of the way to a drop)"
+    "price fall risk tonight (-93% of the way to a drop)"
    ],
    "buys": [
     {
@@ -290,7 +290,7 @@
       "form 3.3, 5.0 ppg",
       "xGI/90 1.24",
       "next 3: TOT(A) IPS(H) HUL(A) (FDR 2.3)",
-      "5.0% owned (differential)",
+      "5.1% owned (differential)",
       "price rise likely tonight (103%), buy before it goes up"
      ],
      "delta": 4.14
@@ -302,8 +302,8 @@
       "xGI/90 0.48",
       "next 3: LEE(A) HUL(H) COV(A) (FDR 2.3)",
       "15.9% owned",
-      "price rise likely tonight (119%), buy before it goes up",
-      "83k net transfers in this GW"
+      "price rise likely tonight (118%), buy before it goes up",
+      "84k net transfers in this GW"
      ],
      "delta": 2.75
     },
@@ -352,7 +352,7 @@
       "xGC/90 2.08",
       "next 3: COV(A) ARS(H) SUN(A) (FDR 3.0)",
       "17.8% owned",
-      "56k net transfers in this GW"
+      "57k net transfers in this GW"
      ],
      "delta": 5.41
     }
@@ -444,8 +444,8 @@
   "Elanga",
   "Haaland",
   "Rogers",
-  "Gakpo",
   "White",
+  "Gakpo",
   "De Cuyper",
   "Slater"
  ],
@@ -457,9 +457,9 @@
   "McNeil",
   "Dalot",
   "Rice",
-  "Bamba",
-  "James",
   "Tosin",
+  "James",
+  "Bamba",
   "Steur",
   "Semenyo"
  ],

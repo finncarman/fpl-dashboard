@@ -369,7 +369,9 @@ def build(cfg):
                     owned[i] += 1
                 if capt:
                     caps[capt] += 1
-            rivals.append({"rank": r["rank"], "name": r["player_name"], "team": r["entry_name"], "total": r["total"],
+            parts = (r["player_name"] or "").split()
+            short_name = parts[0] + (f" {parts[-1][0]}." if len(parts) > 1 else "") if parts else "?"
+            rivals.append({"rank": r["rank"], "name": short_name, "team": r["entry_name"], "total": r["total"],
                            "gw": r["event_total"], "me": r["entry"] == entry_id,
                            "gap": r["total"] - (me["total"] if me else 0),
                            "captain": players[capt]["name"] if capt else "?",
