@@ -327,6 +327,8 @@ def build(cfg):
                     continue
                 vs = tshort[a] if tid == h else tshort[h]
                 where = next((k for k, pool in extra_names.items() if matches(p, pool)), None)
+                if matches(p, names):
+                    continue
                 if where:
                     my_lineup_alerts.append({"player": p, "status": status.replace(" Lineup", ""), "gw": gw, "vs": vs,
                                              "kind": f"listed under {where}"})
