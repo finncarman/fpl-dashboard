@@ -88,8 +88,15 @@ def main():
     if args.print:
         print(text)
     if args.notify:
-        sent = notify.send_telegram(text)
-        print("telegram:", "sent" if sent else "skipped (no TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID)")
+        have_tok = bool(os.environ.get("TELEGRAM_BOT_TOKEN"))
+        have_chat = bool(os.environ.get("TELEGRAM_CHAT_ID"))
+        if have_tok and have_chat:
+            try:
+                print("telegram:", "sent" if notify.send_telegram(text) else "failed")
+            except Exception as ex:
+                print("telegram: error", ex)
+        else:
+            print(f"telegram: skipped (TELEGRAM_BOT_TOKEN {'set' if have_tok else 'MISSING'}, TELEGRAM_CHAT_ID {'set' if have_chat else 'MISSING'})")
     print(f"built {out} ({len(html)//1024} KB), GW{model['next_gw']} deadline {model['deadline']}")
     return 0
 
