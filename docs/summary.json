@@ -1,14 +1,14 @@
 {
- "generated": "2026-09-05T20:43:56.448822+00:00",
+ "generated": "2026-09-06T20:02:20.687640+00:00",
  "next_gw": 4,
  "deadline": "2026-09-12T12:30:00+00:00",
  "entry": {
   "name": "Yo Yo Yohanna",
   "manager": "Finn Carman Kuh",
-  "overall_rank": 823657,
-  "points": 204,
-  "gw_points": 48,
-  "gw_rank": 1846211,
+  "overall_rank": 787500,
+  "points": 217,
+  "gw_points": 61,
+  "gw_rank": 1702284,
   "bank": 0.5,
   "value": 100.4,
   "free_transfers": null,
@@ -32,7 +32,7 @@
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": 0.485,
+   "lf_tonight": 0.509,
    "slot": 1,
    "is_captain": false
   },
@@ -41,15 +41,15 @@
    "pos": "DEF",
    "team_short": "ARS",
    "price": 5.7,
-   "form": 6.7,
-   "xgi90": 0.3705882352941176,
-   "mins_share": 0.9444444444444444,
-   "sel": 46.1,
-   "proj3": 10.01,
+   "form": 7.3,
+   "xgi90": 0.44618644067796603,
+   "mins_share": 1.0,
+   "sel": 46.6,
+   "proj3": 9.73,
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": 0.297,
+   "lf_tonight": 0.553,
    "slot": 2,
    "is_captain": false
   },
@@ -58,15 +58,15 @@
    "pos": "DEF",
    "team_short": "EVE",
    "price": 6.0,
-   "form": 6.0,
-   "xgi90": 0.08,
+   "form": 7.0,
+   "xgi90": 0.06333333333333332,
    "mins_share": 1.0,
-   "sel": 10.9,
-   "proj3": 7.36,
+   "sel": 11.0,
+   "proj3": 7.43,
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": 0.608,
+   "lf_tonight": 0.656,
    "slot": 3,
    "is_captain": false
   },
@@ -78,12 +78,12 @@
    "form": 5.0,
    "xgi90": 0.12,
    "mins_share": 1.0,
-   "sel": 8.2,
+   "sel": 8.3,
    "proj3": 5.61,
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": -0.347,
+   "lf_tonight": -0.307,
    "slot": 4,
    "is_captain": false
   },
@@ -92,15 +92,15 @@
    "pos": "MID",
    "team_short": "MUN",
    "price": 7.9,
-   "form": 4.3,
-   "xgi90": 1.35,
+   "form": 7.0,
+   "xgi90": 0.9266666666666665,
    "mins_share": 1.0,
-   "sel": 26.5,
-   "proj3": 8.19,
+   "sel": 26.2,
+   "proj3": 9.17,
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": -0.027,
+   "lf_tonight": -0.044,
    "slot": 5,
    "is_captain": false
   },
@@ -112,12 +112,12 @@
    "form": 3.0,
    "xgi90": 0.35702479338842974,
    "mins_share": 1.0,
-   "sel": 9.3,
+   "sel": 8.9,
    "proj3": 3.89,
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": -0.087,
+   "lf_tonight": -0.184,
    "slot": 6,
    "is_captain": false
   },
@@ -129,12 +129,12 @@
    "form": 3.7,
    "xgi90": 1.1400000000000001,
    "mins_share": 1.0,
-   "sel": 5.6,
+   "sel": 5.2,
    "proj3": 6.4,
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": 0.619,
+   "lf_tonight": 0.458,
    "slot": 7,
    "is_captain": false
   },
@@ -144,14 +144,14 @@
    "team_short": "BRE",
    "price": 6.0,
    "form": 5.0,
-   "xgi90": 0.3,
+   "xgi90": 0.3269662921348314,
    "mins_share": 1.0,
-   "sel": 4.2,
-   "proj3": 5.45,
+   "sel": 4.1,
+   "proj3": 5.52,
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": 0.427,
+   "lf_tonight": 0.404,
    "slot": 8,
    "is_captain": false
   },
@@ -163,12 +163,12 @@
    "form": 5.3,
    "xgi90": 0.2402255639097744,
    "mins_share": 1.0,
-   "sel": 11.3,
+   "sel": 10.8,
    "proj3": 5.75,
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": -0.065,
+   "lf_tonight": -0.16,
    "slot": 9,
    "is_captain": false
   },
@@ -180,12 +180,12 @@
    "form": 8.0,
    "xgi90": 0.9866666666666666,
    "mins_share": 1.0,
-   "sel": 71.1,
+   "sel": 71.2,
    "proj3": 10.32,
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": 0.751,
+   "lf_tonight": 0.759,
    "slot": 10,
    "is_captain": true
   },
@@ -197,12 +197,12 @@
    "form": 1.3,
    "xgi90": 0.8244274809160306,
    "mins_share": 1.0,
-   "sel": 13.2,
+   "sel": 12.7,
    "proj3": 3.06,
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": -0.936,
+   "lf_tonight": -1.165,
    "slot": 11,
    "is_captain": false
   },
@@ -214,12 +214,12 @@
    "form": 3.0,
    "xgi90": 0.0,
    "mins_share": 1.0,
-   "sel": 19.3,
+   "sel": 19.1,
    "proj3": 2.85,
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": -0.375,
+   "lf_tonight": -0.378,
    "slot": 12,
    "is_captain": false
   },
@@ -228,15 +228,15 @@
    "pos": "FWD",
    "team_short": "CHE",
    "price": 7.7,
-   "form": 6.7,
-   "xgi90": 0.98,
+   "form": 7.0,
+   "xgi90": 0.6733333333333333,
    "mins_share": 1.0,
-   "sel": 71.5,
-   "proj3": 10.29,
+   "sel": 71.9,
+   "proj3": 8.83,
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": 0.288,
+   "lf_tonight": 0.448,
    "slot": 13,
    "is_captain": false
   },
@@ -248,12 +248,12 @@
    "form": 3.0,
    "xgi90": 0.1476923076923077,
    "mins_share": 1.0,
-   "sel": 5.2,
+   "sel": 5.0,
    "proj3": 3.0,
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": -0.529,
+   "lf_tonight": -0.68,
    "slot": 14,
    "is_captain": false
   },
@@ -265,12 +265,12 @@
    "form": 3.0,
    "xgi90": 0.3,
    "mins_share": 1.0,
-   "sel": 5.2,
+   "sel": 5.1,
    "proj3": 3.75,
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": 0.014,
+   "lf_tonight": 0.01,
    "slot": 15,
    "is_captain": false
   }
@@ -281,19 +281,28 @@
    "reasons": [
     "tough run next 3: BOU(A) CHE(H) AVL(A) (avg FDR 3.7)",
     "poor form (1.3) for a 8.0m player",
-    "price fall risk tonight (-93% of the way to a drop)"
+    "price fall risk tonight (-116% of the way to a drop)"
    ],
    "buys": [
     {
      "name": "Barry",
      "why": [
-      "form 3.3, 5.0 ppg",
-      "xGI/90 1.24",
+      "form 4.0, 4.0 ppg",
+      "xGI/90 0.92",
       "next 3: TOT(A) IPS(H) HUL(A) (FDR 2.3)",
-      "5.1% owned (differential)",
-      "price rise likely tonight (102%), buy before it goes up"
+      "5.2% owned (differential)"
      ],
-     "delta": 4.14
+     "delta": 3.54
+    },
+    {
+     "name": "Havertz",
+     "why": [
+      "form 5.3, 5.3 ppg",
+      "xGI/90 0.33",
+      "next 3: SUN(A) BHA(A) LEE(H) (FDR 2.7)",
+      "7.0% owned (differential)"
+     ],
+     "delta": 3.21
     },
     {
      "name": "Wissa",
@@ -301,21 +310,10 @@
       "form 4.3, 4.3 ppg",
       "xGI/90 0.48",
       "next 3: LEE(A) HUL(H) COV(A) (FDR 2.3)",
-      "15.9% owned",
-      "price rise likely tonight (118%), buy before it goes up",
-      "85k net transfers in this GW"
+      "16.4% owned",
+      "134k net transfers in this GW"
      ],
      "delta": 2.75
-    },
-    {
-     "name": "Emersonn",
-     "why": [
-      "form 4.0, 4.0 ppg",
-      "xGI/90 0.57",
-      "next 3: CRY(A) EVE(A) FUL(H) (FDR 2.7)",
-      "1.7% owned (differential)"
-     ],
-     "delta": 2.5
     }
    ]
   },
@@ -331,7 +329,7 @@
       "form 7.3, 7.3 ppg",
       "xGC/90 0.68",
       "next 3: NEW(H) CRY(H) ARS(A) (FDR 3.3)",
-      "0.7% owned (differential)"
+      "1.0% owned (differential)"
      ],
      "delta": 5.79
     },
@@ -339,9 +337,10 @@
      "name": "Ajayi",
      "why": [
       "form 8.3, 8.3 ppg",
-      "xGC/90 1.44",
+      "xGC/90 1.51",
       "next 3: CHE(A) NEW(A) EVE(H) (FDR 3.3)",
-      "9.7% owned (differential)"
+      "10.3% owned",
+      "78k net transfers in this GW"
      ],
      "delta": 5.54
     },
@@ -351,8 +350,9 @@
       "form 7.0, 7.0 ppg",
       "xGC/90 2.08",
       "next 3: COV(A) ARS(H) SUN(A) (FDR 3.0)",
-      "17.8% owned",
-      "58k net transfers in this GW"
+      "18.4% owned",
+      "price rise likely tonight (83%), buy before it goes up",
+      "114k net transfers in this GW"
      ],
      "delta": 5.41
     }
@@ -370,9 +370,9 @@
       "form 7.0, 7.0 ppg",
       "xGI/90 0.62",
       "next 3: BRE(H) LIV(H) CHE(A) (FDR 3.7)",
-      "2.5% owned (differential)"
+      "2.8% owned (differential)"
      ],
-     "delta": 2.79
+     "delta": 2.72
     },
     {
      "name": "Scott",
@@ -380,19 +380,20 @@
       "form 8.0, 8.0 ppg",
       "xGI/90 0.21",
       "next 3: BRE(H) LIV(H) CHE(A) (FDR 3.7)",
-      "2.5% owned (differential)"
+      "3.3% owned (differential)",
+      "96k net transfers in this GW"
      ],
-     "delta": 2.78
+     "delta": 2.71
     },
     {
-     "name": "King",
+     "name": "Janelt",
      "why": [
-      "form 6.3, 6.3 ppg",
-      "xGI/90 0.43",
-      "next 3: LIV(A) MUN(H) IPS(A) (FDR 3.3)",
-      "0.8% owned (differential)"
+      "form 7.0, 7.0 ppg",
+      "xGI/90 0.27",
+      "next 3: BOU(A) CHE(H) AVL(A) (FDR 3.7)",
+      "1.1% owned (differential)"
      ],
-     "delta": 1.77
+     "delta": 1.86
     }
    ]
   }
@@ -408,71 +409,66 @@
    ]
   },
   {
-   "name": "Calafiori",
-   "score": 9.46,
+   "name": "Mbeumo",
+   "score": 9.18,
    "why": [
-    "SUN(A) FDR 3",
-    "form 6.7",
-    "xGI/90 0.37"
+    "MCI(H) FDR 4",
+    "form 7.0",
+    "xGI/90 0.93"
    ]
   },
   {
-   "name": "Mbeumo",
-   "score": 8.85,
+   "name": "Calafiori",
+   "score": 8.64,
    "why": [
-    "MCI(H) FDR 4",
-    "form 4.3",
-    "xGI/90 1.35"
+    "SUN(A) FDR 3",
+    "form 7.3",
+    "xGI/90 0.45"
    ]
   },
   {
    "name": "Tarkowski",
-   "score": 7.74,
+   "score": 7.19,
    "why": [
     "TOT(A) FDR 3",
-    "form 6.0",
-    "xGI/90 0.08"
+    "form 7.0",
+    "xGI/90 0.06"
    ]
   }
  ],
  "risers": [
-  "Wissa",
-  "Barry",
+  "Rogers",
+  "Gakpo",
   "Egan",
   "Gro\u00df",
-  "Gonzalo",
   "Elanga",
-  "Haaland",
-  "Rogers",
-  "White",
-  "Gakpo",
   "De Cuyper",
-  "Slater"
+  "Gonzalo",
+  "Isak",
+  "Haaland",
+  "Mendy",
+  "White",
+  "Tarkowski"
  ],
  "fallers": [
-  "Gravenberch",
-  "Frimpong",
-  "Rodon",
-  "Dominguez",
-  "McNeil",
-  "Dalot",
-  "Rice",
-  "James",
-  "Tosin",
-  "Bamba",
-  "Steur",
-  "Semenyo"
+  "Mundle",
+  "Thiago",
+  "Shaw",
+  "Mosquera",
+  "Yirenkyi",
+  "Ballard",
+  "Dowman",
+  "Gannon-Doak",
+  "Muniz",
+  "Mac Allister",
+  "Rayan",
+  "Pope"
  ],
  "lineup_alerts": [
   {
-   "player": "Foden",
-   "status": "Confirmed",
-   "vs": "COV"
-  },
-  {
    "player": "Hume",
-   "status": "Confirmed",
-   "vs": "BRE"
+   "status": "Predicted",
+   "vs": "ARS"
   }
  ]
 }
