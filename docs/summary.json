@@ -1,14 +1,14 @@
 {
- "generated": "2026-09-18T09:58:42.672622+00:00",
+ "generated": "2026-09-18T14:21:28.559026+00:00",
  "next_gw": 5,
  "deadline": "2026-09-18T17:30:00+00:00",
  "entry": {
   "name": "Yo Yo Yohanna",
   "manager": "Finn Carman Kuh",
-  "overall_rank": 2309711,
+  "overall_rank": 2309705,
   "points": 276,
   "gw_points": 63,
-  "gw_rank": 7179760,
+  "gw_rank": 7179720,
   "bank": 0.3,
   "value": 100.5,
   "free_transfers": null,
@@ -27,12 +27,12 @@
    "form": 4.2,
    "xgi90": 0.05,
    "mins_share": 1.0,
-   "sel": 21.5,
+   "sel": 21.4,
    "proj3": 4.05,
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": 0.526,
+   "lf_tonight": 0.5,
    "slot": 1,
    "is_captain": false
   },
@@ -49,7 +49,7 @@
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": 0.829,
+   "lf_tonight": 0.868,
    "slot": 2,
    "is_captain": false
   },
@@ -61,12 +61,12 @@
    "form": 7.2,
    "xgi90": 0.05,
    "mins_share": 1.0,
-   "sel": 14.1,
+   "sel": 14.4,
    "proj3": 7.48,
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": 0.214,
+   "lf_tonight": 0.263,
    "slot": 3,
    "is_captain": false
   },
@@ -78,12 +78,12 @@
    "form": 4.2,
    "xgi90": 0.18,
    "mins_share": 1.0,
-   "sel": 9.1,
+   "sel": 9.3,
    "proj3": 5.01,
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": 0.2,
+   "lf_tonight": 0.291,
    "slot": 4,
    "is_captain": false
   },
@@ -95,12 +95,12 @@
    "form": 5.8,
    "xgi90": 0.8375,
    "mins_share": 1.0,
-   "sel": 22.0,
+   "sel": 21.8,
    "proj3": 7.89,
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": -0.468,
+   "lf_tonight": -0.553,
    "slot": 5,
    "is_captain": false
   },
@@ -112,12 +112,12 @@
    "form": 3.0,
    "xgi90": 0.3063253012048192,
    "mins_share": 0.9222222222222223,
-   "sel": 6.4,
+   "sel": 6.3,
    "proj3": 3.62,
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": -0.173,
+   "lf_tonight": -0.274,
    "slot": 6,
    "is_captain": false
   },
@@ -129,12 +129,12 @@
    "form": 6.5,
    "xgi90": 0.4576704545454545,
    "mins_share": 0.9777777777777777,
-   "sel": 26.8,
+   "sel": 26.9,
    "proj3": 7.64,
    "status": "a",
    "news": "",
    "chance": 100,
-   "lf_tonight": 0.295,
+   "lf_tonight": 0.312,
    "slot": 7,
    "is_captain": true
   },
@@ -146,12 +146,12 @@
    "form": 4.2,
    "xgi90": 0.20836012861736333,
    "mins_share": 0.8638888888888889,
-   "sel": 7.5,
+   "sel": 7.4,
    "proj3": 4.87,
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": -1.163,
+   "lf_tonight": -1.294,
    "slot": 8,
    "is_captain": false
   },
@@ -163,12 +163,12 @@
    "form": 8.2,
    "xgi90": 0.96,
    "mins_share": 1.0,
-   "sel": 73.0,
+   "sel": 73.2,
    "proj3": 10.75,
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": 0.047,
+   "lf_tonight": 0.075,
    "slot": 9,
    "is_captain": false
   },
@@ -180,12 +180,12 @@
    "form": 3.8,
    "xgi90": 0.39999999999999997,
    "mins_share": 0.975,
-   "sel": 18.6,
+   "sel": 18.8,
    "proj3": 5.1,
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": 0.65,
+   "lf_tonight": 0.821,
    "slot": 10,
    "is_captain": false
   },
@@ -197,12 +197,12 @@
    "form": 8.2,
    "xgi90": 0.59,
    "mins_share": 1.0,
-   "sel": 71.5,
+   "sel": 70.0,
    "proj3": 6.78,
    "status": "d",
    "news": "Unspecified injury - 75% chance of playing",
    "chance": 75,
-   "lf_tonight": -0.36,
+   "lf_tonight": -0.55,
    "slot": 11,
    "is_captain": false
   },
@@ -219,7 +219,7 @@
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": -0.351,
+   "lf_tonight": -0.348,
    "slot": 12,
    "is_captain": false
   },
@@ -231,12 +231,12 @@
    "form": 7.5,
    "xgi90": 0.3226890756302521,
    "mins_share": 0.9916666666666667,
-   "sel": 7.0,
+   "sel": 7.3,
    "proj3": 7.86,
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": 0.207,
+   "lf_tonight": 0.29,
    "slot": 13,
    "is_captain": false
   },
@@ -248,12 +248,12 @@
    "form": 5.8,
    "xgi90": 0.4025,
    "mins_share": 1.0,
-   "sel": 6.6,
+   "sel": 6.7,
    "proj3": 6.45,
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": 0.564,
+   "lf_tonight": 0.626,
    "slot": 14,
    "is_captain": false
   },
@@ -265,12 +265,12 @@
    "form": 6.2,
    "xgi90": 0.11566265060240964,
    "mins_share": 0.6916666666666667,
-   "sel": 6.8,
+   "sel": 6.6,
    "proj3": 0.0,
    "status": "i",
    "news": "Concussion - Expected back 11 Oct",
    "chance": 0,
-   "lf_tonight": -0.368,
+   "lf_tonight": -0.436,
    "slot": 15,
    "is_captain": false
   }
@@ -288,8 +288,9 @@
       "form 6.5, 6.5 ppg",
       "xGC/90 1.35",
       "next 3: NEW(A) EVE(H) FUL(A) (FDR 3.0)",
-      "14.0% owned",
-      "134k net transfers in this GW"
+      "14.1% owned",
+      "price rise likely tonight (75%), buy before it goes up",
+      "144k net transfers in this GW"
      ],
      "delta": 6.91
     },
@@ -300,7 +301,7 @@
       "xGC/90 1.49",
       "next 3: NEW(A) EVE(H) FUL(A) (FDR 3.0)",
       "7.0% owned (differential)",
-      "59k net transfers in this GW"
+      "64k net transfers in this GW"
      ],
      "delta": 6.22
     },
@@ -310,8 +311,8 @@
       "form 6.0, 6.0 ppg",
       "xGC/90 1.50",
       "next 3: NEW(A) EVE(H) FUL(A) (FDR 3.0)",
-      "2.7% owned (differential)",
-      "96k net transfers in this GW"
+      "2.8% owned (differential)",
+      "104k net transfers in this GW"
      ],
      "delta": 6.19
     }
@@ -329,8 +330,9 @@
       "form 6.0, 6.0 ppg",
       "xGI/90 0.60",
       "next 3: EVE(A) FUL(H) MCI(A) (FDR 3.3)",
-      "3.0% owned (differential)",
-      "109k net transfers in this GW"
+      "3.2% owned (differential)",
+      "price rise likely tonight (77%), buy before it goes up",
+      "118k net transfers in this GW"
      ],
      "delta": 0.58
     },
@@ -340,8 +342,9 @@
       "form 5.0, 5.0 ppg",
       "xGI/90 0.70",
       "next 3: CRY(H) ARS(A) MUN(H) (FDR 4.0)",
-      "24.7% owned",
-      "230k net transfers in this GW"
+      "25.4% owned",
+      "price rise likely tonight (90%), buy before it goes up",
+      "288k net transfers in this GW"
      ],
      "delta": -0.48
     },
@@ -351,8 +354,9 @@
       "form 3.5, 3.5 ppg",
       "xGI/90 0.86",
       "next 3: IPS(H) HUL(A) CHE(H) (FDR 2.7)",
-      "7.3% owned (differential)",
-      "90k net transfers in this GW"
+      "7.6% owned (differential)",
+      "price rise likely tonight (83%), buy before it goes up",
+      "116k net transfers in this GW"
      ],
      "delta": -0.98
     }
@@ -361,7 +365,7 @@
   {
    "sell": "Ndiaye",
    "reasons": [
-    "price fall risk tonight (-116% of the way to a drop)"
+    "price fall risk tonight (-129% of the way to a drop)"
    ],
    "buys": [
     {
@@ -370,8 +374,8 @@
       "form 8.2, 8.2 ppg",
       "xGI/90 0.57",
       "next 3: ARS(H) SUN(A) CRY(H) (FDR 3.3)",
-      "20.2% owned",
-      "414k net transfers in this GW"
+      "20.5% owned",
+      "447k net transfers in this GW"
      ],
      "delta": 4.6
     },
@@ -381,8 +385,8 @@
       "form 7.2, 7.2 ppg",
       "xGI/90 0.65",
       "next 3: LIV(H) CHE(A) SUN(H) (FDR 3.3)",
-      "6.1% owned (differential)",
-      "215k net transfers in this GW"
+      "6.3% owned (differential)",
+      "230k net transfers in this GW"
      ],
      "delta": 3.79
     },
@@ -410,8 +414,8 @@
       "form 8.2, 8.2 ppg",
       "xGI/90 0.57",
       "next 3: ARS(H) SUN(A) CRY(H) (FDR 3.3)",
-      "20.2% owned",
-      "414k net transfers in this GW"
+      "20.5% owned",
+      "447k net transfers in this GW"
      ],
      "delta": 1.61
     },
@@ -421,8 +425,8 @@
       "form 7.2, 7.2 ppg",
       "xGI/90 0.65",
       "next 3: LIV(H) CHE(A) SUN(H) (FDR 3.3)",
-      "6.1% owned (differential)",
-      "215k net transfers in this GW"
+      "6.3% owned (differential)",
+      "230k net transfers in this GW"
      ],
      "delta": 0.8
     },
@@ -479,31 +483,31 @@
  ],
  "risers": [
   "Barnes",
-  "Konsa",
   "Dewsbury-Hall",
-  "Mykolenko",
+  "Konsa",
   "Delap",
+  "Mykolenko",
   "Raya",
+  "Calvert-Lewin",
   "Calafiori",
-  "Tzolakis",
-  "Slater",
+  "Barry",
+  "Wissa",
   "Rogers",
-  "Janelt",
-  "Saka"
+  "Tzolakis"
  ],
  "fallers": [
-  "Elanga",
-  "Awoniyi",
   "Tonali",
+  "Elanga",
   "Tel",
+  "Awoniyi",
+  "Brobbey",
   "Ndiaye",
   "M.Sangar\u00e9",
-  "David",
-  "Lacroix",
-  "Brobbey",
+  "E.Le F\u00e9e",
   "Ngumoha",
-  "Osula",
-  "Wilson"
+  "Lacroix",
+  "David",
+  "Shaw"
  ],
  "lineup_alerts": [
   {
