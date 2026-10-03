@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-03T15:55:09.804163+00:00",
+ "generated": "2026-10-03T19:05:49.211664+00:00",
  "next_gw": 6,
  "deadline": "2026-10-10T10:00:00+00:00",
  "entry": {
@@ -8,7 +8,7 @@
   "overall_rank": 2118873,
   "points": 327,
   "gw_points": 51,
-  "gw_rank": 4021124,
+  "gw_rank": 4021123,
   "bank": 0.3,
   "value": 100.8,
   "free_transfers": null,
@@ -32,7 +32,7 @@
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": -0.527,
+   "lf_tonight": -0.528,
    "slot": 1,
    "is_captain": false
   },
@@ -49,7 +49,7 @@
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": 0.98,
+   "lf_tonight": 0.981,
    "slot": 2,
    "is_captain": false
   },
@@ -83,7 +83,7 @@
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": 0.248,
+   "lf_tonight": 0.249,
    "slot": 4,
    "is_captain": true
   },
@@ -100,7 +100,7 @@
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": -0.778,
+   "lf_tonight": -0.78,
    "slot": 5,
    "is_captain": false
   },
@@ -129,12 +129,12 @@
    "form": 2.7,
    "xgi90": 0.42760180995475117,
    "mins_share": 0.9822222222222222,
-   "sel": 25.6,
+   "sel": 25.5,
    "proj3": 3.43,
    "status": "d",
    "news": "Muscular injury - 75% chance of playing",
    "chance": 75,
-   "lf_tonight": -0.16,
+   "lf_tonight": -0.161,
    "slot": 7,
    "is_captain": false
   },
@@ -168,7 +168,7 @@
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": -0.385,
+   "lf_tonight": -0.386,
    "slot": 9,
    "is_captain": false
   },
@@ -185,7 +185,7 @@
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": 0.241,
+   "lf_tonight": 0.242,
    "slot": 10,
    "is_captain": false
   },
@@ -202,7 +202,7 @@
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": 0.645,
+   "lf_tonight": 0.648,
    "slot": 11,
    "is_captain": false
   },
@@ -219,7 +219,7 @@
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": 0.666,
+   "lf_tonight": 0.667,
    "slot": 12,
    "is_captain": false
   },
@@ -253,7 +253,7 @@
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": 0.754,
+   "lf_tonight": 0.756,
    "slot": 14,
    "is_captain": false
   },
@@ -327,8 +327,8 @@
       "xGI/90 0.53",
       "next 3: SUN(A) CRY(H) LIV(A) (FDR 3.0)",
       "29.2% owned",
-      "price rise likely tonight (100%), buy before it goes up",
-      "799k net transfers in this GW"
+      "price rise likely tonight (101%), buy before it goes up",
+      "801k net transfers in this GW"
      ],
      "delta": 8.19
     },
@@ -339,7 +339,7 @@
       "xGI/90 0.22",
       "next 3: COV(A) AVL(H) CRY(A) (FDR 2.7)",
       "5.8% owned (differential)",
-      "146k net transfers in this GW"
+      "147k net transfers in this GW"
      ],
      "delta": 4.34
     },
@@ -368,7 +368,7 @@
       "xGI/90 0.36",
       "next 3: SUN(A) CRY(H) LIV(A) (FDR 3.0)",
       "4.3% owned (differential)",
-      "304k net transfers in this GW"
+      "305k net transfers in this GW"
      ],
      "delta": 2.62
     },
@@ -408,7 +408,7 @@
       "xGI/90 0.36",
       "next 3: SUN(A) CRY(H) LIV(A) (FDR 3.0)",
       "4.3% owned (differential)",
-      "304k net transfers in this GW"
+      "305k net transfers in this GW"
      ],
      "delta": 4.71
     },
@@ -438,7 +438,7 @@
   {
    "sell": "Mbeumo",
    "reasons": [
-    "price fall risk tonight (-77% of the way to a drop)"
+    "price fall risk tonight (-78% of the way to a drop)"
    ],
    "buys": [
     {
@@ -448,8 +448,8 @@
       "xGI/90 0.53",
       "next 3: SUN(A) CRY(H) LIV(A) (FDR 3.0)",
       "29.2% owned",
-      "price rise likely tonight (100%), buy before it goes up",
-      "799k net transfers in this GW"
+      "price rise likely tonight (101%), buy before it goes up",
+      "801k net transfers in this GW"
      ],
      "delta": 5.24
     },
@@ -460,7 +460,7 @@
       "xGI/90 0.22",
       "next 3: COV(A) AVL(H) CRY(A) (FDR 2.7)",
       "5.8% owned (differential)",
-      "146k net transfers in this GW"
+      "147k net transfers in this GW"
      ],
      "delta": 1.39
     },
@@ -539,9 +539,9 @@
   "De Ligt",
   "Drakes-Thomas",
   "Jocelin.T",
-  "J.Ramsey",
   "Cunha",
-  "Greaves"
+  "J.Ramsey",
+  "Koumas"
  ],
  "lineup_alerts": [
   {
