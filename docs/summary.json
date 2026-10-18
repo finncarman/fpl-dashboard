@@ -1,23 +1,23 @@
 {
- "generated": "2026-10-17T05:59:57.315726+00:00",
- "next_gw": 7,
- "deadline": "2026-10-17T10:00:00+00:00",
+ "generated": "2026-10-18T09:27:19.830169+00:00",
+ "next_gw": 8,
+ "deadline": "2026-10-23T17:30:00+00:00",
  "entry": {
   "name": "Yo Yo Yohanna",
   "manager": "Finn Carman Kuh",
-  "overall_rank": 1123712,
-  "points": 409,
-  "gw_points": 82,
-  "gw_rank": 436110,
+  "overall_rank": 954189,
+  "points": 447,
+  "gw_points": 38,
+  "gw_rank": 2179272,
   "bank": 0.0,
-  "value": 101.0,
+  "value": 101.5,
   "free_transfers": null,
   "chips_used": {
    "bboost": 1,
    "3xc": 3,
    "wildcard": 6
   },
-  "active_chip": "wildcard"
+  "active_chip": null
  },
  "squad": [
   {
@@ -25,15 +25,15 @@
    "pos": "GKP",
    "team_short": "ARS",
    "price": 6.1,
-   "form": 2.0,
+   "form": 1.3,
    "xgi90": 0.0016666666666666666,
    "mins_share": 1.0,
    "sel": 43.8,
-   "proj3": 3.65,
+   "proj3": 3.31,
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": 0.056,
+   "lf_tonight": 0.109,
    "slot": 1,
    "is_captain": false
   },
@@ -41,16 +41,16 @@
    "name": "Calafiori",
    "pos": "DEF",
    "team_short": "ARS",
-   "price": 5.9,
-   "form": 5.0,
+   "price": 6.0,
+   "form": 3.3,
    "xgi90": 0.3440643863179074,
    "mins_share": 0.9203703703703704,
-   "sel": 53.0,
-   "proj3": 6.66,
+   "sel": 53.3,
+   "proj3": 5.62,
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": 1.113,
+   "lf_tonight": 0.014,
    "slot": 2,
    "is_captain": false
   },
@@ -59,15 +59,15 @@
    "pos": "DEF",
    "team_short": "BHA",
    "price": 5.2,
-   "form": 10.5,
+   "form": 7.0,
    "xgi90": 0.45367346938775516,
    "mins_share": 0.9074074074074074,
-   "sel": 38.8,
-   "proj3": 10.6,
+   "sel": 40.0,
+   "proj3": 8.0,
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": 0.408,
+   "lf_tonight": 0.597,
    "slot": 3,
    "is_captain": false
   },
@@ -76,15 +76,15 @@
    "pos": "DEF",
    "team_short": "FUL",
    "price": 4.5,
-   "form": 3.5,
-   "xgi90": 0.03666666666666667,
-   "mins_share": 0.5,
+   "form": 4.3,
+   "xgi90": 0.03,
+   "mins_share": 0.6666666666666666,
    "sel": 0.7,
-   "proj3": 3.4,
+   "proj3": 5.2,
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": 0.198,
+   "lf_tonight": 0.193,
    "slot": 4,
    "is_captain": false
   },
@@ -93,15 +93,15 @@
    "pos": "MID",
    "team_short": "BHA",
    "price": 6.1,
-   "form": 10.0,
+   "form": 6.7,
    "xgi90": 0.5116666666666666,
    "mins_share": 1.0,
-   "sel": 42.9,
-   "proj3": 10.62,
+   "sel": 44.3,
+   "proj3": 8.16,
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": 0.472,
+   "lf_tonight": 0.68,
    "slot": 5,
    "is_captain": false
   },
@@ -111,14 +111,14 @@
    "team_short": "FUL",
    "price": 5.6,
    "form": 2.0,
-   "xgi90": 0.41039999999999993,
-   "mins_share": 0.9259259259259259,
+   "xgi90": 0.4351819757365684,
+   "mins_share": 1.0,
    "sel": 4.8,
-   "proj3": 4.02,
+   "proj3": 3.84,
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": 0.33,
+   "lf_tonight": 0.31,
    "slot": 6,
    "is_captain": false
   },
@@ -127,32 +127,32 @@
    "pos": "MID",
    "team_short": "CHE",
    "price": 9.7,
-   "form": 5.0,
-   "xgi90": 0.3691871455576559,
-   "mins_share": 0.9796296296296296,
-   "sel": 25.9,
-   "proj3": 6.22,
+   "form": 4.0,
+   "xgi90": 0.3431340872374798,
+   "mins_share": 1.0,
+   "sel": 26.1,
+   "proj3": 5.28,
    "status": "a",
    "news": "",
    "chance": 100,
-   "lf_tonight": 0.283,
+   "lf_tonight": 0.284,
    "slot": 7,
-   "is_captain": true
+   "is_captain": false
   },
   {
    "name": "Saka",
    "pos": "MID",
    "team_short": "ARS",
    "price": 9.6,
-   "form": 2.0,
+   "form": 1.3,
    "xgi90": 0.8306324110671937,
    "mins_share": 0.937037037037037,
-   "sel": 16.9,
-   "proj3": 5.04,
+   "sel": 17.0,
+   "proj3": 4.7,
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": -0.089,
+   "lf_tonight": -0.064,
    "slot": 8,
    "is_captain": false
   },
@@ -161,15 +161,15 @@
    "pos": "MID",
    "team_short": "MUN",
    "price": 7.8,
-   "form": 5.0,
+   "form": 3.3,
    "xgi90": 0.7016666666666667,
    "mins_share": 1.0,
-   "sel": 19.6,
-   "proj3": 6.75,
+   "sel": 19.5,
+   "proj3": 5.56,
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": -0.011,
+   "lf_tonight": -0.005,
    "slot": 9,
    "is_captain": false
   },
@@ -178,32 +178,32 @@
    "pos": "FWD",
    "team_short": "MCI",
    "price": 15.7,
-   "form": 6.0,
-   "xgi90": 0.9119092627599243,
-   "mins_share": 0.9796296296296296,
-   "sel": 76.1,
-   "proj3": 8.88,
+   "form": 8.3,
+   "xgi90": 0.9567043618739903,
+   "mins_share": 1.0,
+   "sel": 76.5,
+   "proj3": 10.69,
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": 0.103,
+   "lf_tonight": 0.222,
    "slot": 10,
-   "is_captain": false
+   "is_captain": true
   },
   {
    "name": "Jo\u00e3o Pedro",
    "pos": "FWD",
    "team_short": "CHE",
    "price": 7.8,
-   "form": 6.0,
-   "xgi90": 0.6389791183294663,
-   "mins_share": 0.7981481481481482,
-   "sel": 71.8,
-   "proj3": 8.5,
+   "form": 4.7,
+   "xgi90": 0.5804222648752398,
+   "mins_share": 0.9648148148148148,
+   "sel": 72.4,
+   "proj3": 7.08,
    "status": "a",
    "news": "",
    "chance": 100,
-   "lf_tonight": 1.07,
+   "lf_tonight": 0.936,
    "slot": 11,
    "is_captain": false
   },
@@ -216,11 +216,11 @@
    "xgi90": 0.0,
    "mins_share": 0.0,
    "sel": 16.7,
-   "proj3": 1.01,
+   "proj3": 0.92,
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": -0.409,
+   "lf_tonight": -0.414,
    "slot": 12,
    "is_captain": false
   },
@@ -229,33 +229,16 @@
    "pos": "DEF",
    "team_short": "BOU",
    "price": 5.0,
-   "form": 1.5,
+   "form": 1.0,
    "xgi90": 0.27,
    "mins_share": 1.0,
    "sel": 0.6,
-   "proj3": 2.17,
+   "proj3": 1.97,
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": 0.036,
+   "lf_tonight": 0.039,
    "slot": 13,
-   "is_captain": false
-  },
-  {
-   "name": "Walle Egeli",
-   "pos": "FWD",
-   "team_short": "IPS",
-   "price": 4.5,
-   "form": 0.5,
-   "xgi90": 0.0,
-   "mins_share": 0.03518518518518519,
-   "sel": 3.4,
-   "proj3": 0.28,
-   "status": "a",
-   "news": "",
-   "chance": null,
-   "lf_tonight": 0.4,
-   "slot": 14,
    "is_captain": false
   },
   {
@@ -263,15 +246,32 @@
    "pos": "DEF",
    "team_short": "COV",
    "price": 4.0,
-   "form": 6.5,
+   "form": 4.3,
    "xgi90": 0.1366223908918406,
    "mins_share": 0.975925925925926,
-   "sel": 9.1,
-   "proj3": 6.38,
+   "sel": 9.2,
+   "proj3": 4.84,
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": 0.381,
+   "lf_tonight": 0.408,
+   "slot": 14,
+   "is_captain": false
+  },
+  {
+   "name": "Walle Egeli",
+   "pos": "FWD",
+   "team_short": "IPS",
+   "price": 4.5,
+   "form": 0.3,
+   "xgi90": 0.0,
+   "mins_share": 0.03518518518518519,
+   "sel": 3.4,
+   "proj3": 0.37,
+   "status": "a",
+   "news": "",
+   "chance": null,
+   "lf_tonight": 0.384,
    "slot": 15,
    "is_captain": false
   }
@@ -292,202 +292,191 @@
    "buys": []
   },
   {
-   "sell": "Affengruber",
-   "reasons": [
-    "minutes risk: 50% of available minutes"
-   ],
-   "buys": [
-    {
-     "name": "Dasilva",
-     "why": [
-      "form 10.0, 4.2 ppg",
-      "xGC/90 1.76",
-      "next 3: TOT(A) FUL(H) SUN(H) (FDR 2.7)",
-      "1.2% owned (differential)"
-     ],
-     "delta": 5.36
-    },
-    {
-     "name": "Justin",
-     "why": [
-      "form 7.0, 5.3 ppg",
-      "xGC/90 1.31",
-      "next 3: MUN(H) SUN(A) BOU(A) (FDR 3.3)",
-      "1.9% owned (differential)"
-     ],
-     "delta": 3.33
-    },
-    {
-     "name": "Ajer",
-     "why": [
-      "form 6.5, 4.5 ppg",
-      "xGC/90 1.43",
-      "next 3: LIV(H) HUL(A) NFO(H) (FDR 3.0)",
-      "3.8% owned (differential)"
-     ],
-     "delta": 2.63
-    }
-   ]
-  },
-  {
    "sell": "Raya",
    "reasons": [
-    "poor form (2.0) for a 6.1m player"
+    "poor form (1.3) for a 6.1m player"
    ],
    "buys": [
     {
      "name": "Verbruggen",
      "why": [
-      "form 7.5, 5.3 ppg",
+      "form 5.0, 5.3 ppg",
       "xGC/90 1.56",
-      "next 3: CRY(H) LIV(A) MCI(A) (FDR 3.7)",
-      "22.3% owned",
-      "97k net transfers in this GW"
+      "next 3: LIV(A) MCI(A) BRE(H) (FDR 4.0)",
+      "22.4% owned"
      ],
-     "delta": 2.89
-    },
-    {
-     "name": "Rushworth",
-     "why": [
-      "form 7.0, 3.2 ppg",
-      "xGC/90 1.75",
-      "next 3: TOT(A) FUL(H) SUN(H) (FDR 2.7)",
-      "0.8% owned (differential)"
-     ],
-     "delta": 2.36
+     "delta": 1.33
     },
     {
      "name": "Trafford",
      "why": [
-      "form 6.0, 5.0 ppg",
+      "form 4.0, 5.0 ppg",
       "xGC/90 1.46",
-      "next 3: MUN(H) SUN(A) BOU(A) (FDR 3.3)",
+      "next 3: SUN(A) BOU(A) TOT(H) (FDR 2.7)",
       "5.7% owned (differential)"
      ],
-     "delta": 1.9
+     "delta": 1.14
+    },
+    {
+     "name": "Rushworth",
+     "why": [
+      "form 4.7, 3.2 ppg",
+      "xGC/90 1.75",
+      "next 3: FUL(H) SUN(H) EVE(A) (FDR 2.7)",
+      "0.8% owned (differential)"
+     ],
+     "delta": 1.09
     }
    ]
   },
   {
    "sell": "Saka",
    "reasons": [
-    "poor form (2.0) for a 9.6m player"
+    "poor form (1.3) for a 9.6m player"
    ],
    "buys": [
     {
      "name": "Cherki",
      "why": [
-      "form 9.0, 7.3 ppg",
+      "form 6.0, 7.3 ppg",
       "xGI/90 0.69",
-      "next 3: IPS(H) AVL(A) BHA(H) (FDR 2.7)",
-      "35.7% owned (template)",
-      "price rise likely tonight (145%), buy before it goes up",
-      "745k net transfers in this GW"
+      "next 3: AVL(A) BHA(H) NFO(A) (FDR 3.0)",
+      "37.0% owned (template)"
      ],
-     "delta": 5.32
+     "delta": 3.41
     },
     {
-     "name": "Semenyo",
+     "name": "Neto",
      "why": [
-      "form 10.0, 6.0 ppg",
-      "xGI/90 0.30",
-      "next 3: IPS(H) AVL(A) BHA(H) (FDR 2.7)",
-      "14.4% owned",
-      "price rise likely tonight (89%), buy before it goes up",
-      "83k net transfers in this GW"
+      "form 7.3, 4.9 ppg",
+      "xGI/90 0.37",
+      "next 3: TOT(H) MUN(H) SUN(A) (FDR 3.0)",
+      "1.7% owned (differential)"
      ],
-     "delta": 4.66
+     "delta": 2.81
     },
     {
-     "name": "Cunha",
+     "name": "Iwobi",
      "why": [
-      "form 10.0, 6.0 ppg",
-      "xGI/90 0.32",
-      "next 3: LEE(A) BOU(H) CHE(A) (FDR 3.3)",
-      "6.7% owned (differential)",
-      "57k net transfers in this GW"
+      "form 6.7, 4.1 ppg",
+      "xGI/90 0.46",
+      "next 3: COV(A) AVL(A) NEW(H) (FDR 2.7)",
+      "0.9% owned (differential)"
      ],
-     "delta": 4.4
+     "delta": 2.53
+    }
+   ]
+  },
+  {
+   "sell": "De Cuyper",
+   "reasons": [
+    "tough run next 3: LIV(A) MCI(A) BRE(H) (avg FDR 4.0)"
+   ],
+   "buys": [
+    {
+     "name": "Dasilva",
+     "why": [
+      "form 6.7, 4.2 ppg",
+      "xGC/90 1.76",
+      "next 3: FUL(H) SUN(H) EVE(A) (FDR 2.7)",
+      "1.4% owned (differential)"
+     ],
+     "delta": -1.55
+    },
+    {
+     "name": "Vuskovic",
+     "why": [
+      "form 5.3, 6.7 ppg",
+      "xGC/90 1.57",
+      "next 3: LIV(A) MCI(A) BRE(H) (FDR 4.0)",
+      "5.1% owned (differential)"
+     ],
+     "delta": -2.45
+    },
+    {
+     "name": "Justin",
+     "why": [
+      "form 4.7, 5.3 ppg",
+      "xGC/90 1.31",
+      "next 3: SUN(A) BOU(A) TOT(H) (FDR 2.7)",
+      "2.0% owned (differential)"
+     ],
+     "delta": -2.58
     }
    ]
   }
  ],
  "captain": [
   {
-   "name": "De Cuyper",
-   "score": 11.61,
+   "name": "Haaland",
+   "score": 11.17,
    "why": [
-    "CRY(H) FDR 2",
-    "form 10.5",
-    "xGI/90 0.45"
+    "AVL(A) FDR 3",
+    "form 8.3",
+    "xGI/90 0.96"
    ]
   },
   {
    "name": "Gro\u00df",
-   "score": 11.54,
+   "score": 8.69,
    "why": [
-    "CRY(H) FDR 2",
-    "form 10.0",
+    "LIV(A) FDR 4",
+    "form 6.7",
     "xGI/90 0.51"
    ]
   },
   {
-   "name": "Haaland",
-   "score": 10.09,
+   "name": "De Cuyper",
+   "score": 8.66,
    "why": [
-    "IPS(H) FDR 2",
-    "form 6.0",
-    "xGI/90 0.91"
+    "LIV(A) FDR 4",
+    "form 7.0",
+    "xGI/90 0.45"
    ]
   },
   {
    "name": "Jo\u00e3o Pedro",
-   "score": 9.42,
+   "score": 8.59,
    "why": [
-    "EVE(A) FDR 3",
-    "form 6.0",
-    "xGI/90 0.64"
+    "TOT(H) FDR 2",
+    "form 4.7",
+    "xGI/90 0.58"
    ]
   }
  ],
  "risers": [
-  "Cherki",
-  "Calafiori",
-  "Jo\u00e3o Pedro",
-  "Manzambi",
-  "Davis",
-  "Janelt",
-  "Tavernier",
   "Jacquet",
-  "Semenyo",
-  "Gu\u00e9hi",
+  "Jo\u00e3o Pedro",
+  "Davis",
+  "Tavernier",
+  "Doku",
   "Giles",
-  "Doku"
+  "Janelt",
+  "Gu\u00e9hi",
+  "Rogers",
+  "Slater",
+  "Gro\u00df",
+  "De Cuyper"
  ],
  "fallers": [
-  "Mykolenko",
   "J.Cuenca",
-  "Diop",
-  "Bentancur",
-  "Khusanov",
-  "Aina",
-  "Stroud",
+  "Wissa",
+  "Braithwaite",
   "Norton-Cuffy",
-  "Hudson-Odoi",
-  "Tel",
+  "Samba",
   "Wood",
-  "Virgil"
+  "Grimes",
+  "Virgil",
+  "Keane",
+  "Alcaraz",
+  "Hudson-Odoi",
+  "Nketiah"
  ],
  "lineup_alerts": [
   {
    "player": "Dubravka",
    "status": "Predicted",
    "vs": "COV"
-  },
-  {
-   "player": "Walle Egeli",
-   "status": "Predicted",
-   "vs": "MCI"
   }
  ]
 }
