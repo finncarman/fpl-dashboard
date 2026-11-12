@@ -1,14 +1,14 @@
 {
- "generated": "2026-11-12T12:19:25.559085+00:00",
+ "generated": "2026-11-12T20:17:25.079198+00:00",
  "next_gw": 11,
  "deadline": "2026-11-21T11:00:00+00:00",
  "entry": {
   "name": "Yo Yo Yohanna",
   "manager": "Finn Carman Kuh",
-  "overall_rank": 760910,
+  "overall_rank": 760909,
   "points": 654,
   "gw_points": 56,
-  "gw_rank": 5169833,
+  "gw_rank": 5169827,
   "bank": 2.2,
   "value": 102.8,
   "free_transfers": null,
@@ -33,7 +33,7 @@
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": 0.887,
+   "lf_tonight": 0.889,
    "slot": 1,
    "is_captain": false
   },
@@ -50,7 +50,7 @@
    "status": "a",
    "news": "",
    "chance": 100,
-   "lf_tonight": 0.047,
+   "lf_tonight": 0.05,
    "slot": 2,
    "is_captain": true
   },
@@ -67,7 +67,7 @@
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": 0.132,
+   "lf_tonight": 0.137,
    "slot": 3,
    "is_captain": false
   },
@@ -84,7 +84,7 @@
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": 0.285,
+   "lf_tonight": 0.286,
    "slot": 4,
    "is_captain": false
   },
@@ -101,7 +101,7 @@
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": 0.225,
+   "lf_tonight": 0.227,
    "slot": 5,
    "is_captain": false
   },
@@ -114,11 +114,11 @@
    "xgi90": 0.49587852494577006,
    "mins_share": 0.5122222222222222,
    "sel": 8.6,
-   "proj3": 5.38,
-   "status": "a",
-   "news": "",
-   "chance": 100,
-   "lf_tonight": 0.487,
+   "proj3": 3.8,
+   "status": "d",
+   "news": "Calf injury - 75% chance of playing",
+   "chance": 75,
+   "lf_tonight": 0.469,
    "slot": 6,
    "is_captain": false
   },
@@ -135,7 +135,7 @@
    "status": "a",
    "news": "",
    "chance": 100,
-   "lf_tonight": 0.462,
+   "lf_tonight": 0.463,
    "slot": 7,
    "is_captain": false
   },
@@ -147,12 +147,12 @@
    "form": 3.5,
    "xgi90": 0.4653409090909091,
    "mins_share": 0.9777777777777777,
-   "sel": 53.9,
+   "sel": 54.0,
    "proj3": 5.47,
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": 0.483,
+   "lf_tonight": 0.486,
    "slot": 8,
    "is_captain": false
   },
@@ -169,7 +169,7 @@
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": -0.783,
+   "lf_tonight": -0.785,
    "slot": 9,
    "is_captain": false
   },
@@ -186,7 +186,7 @@
    "status": "a",
    "news": "",
    "chance": 100,
-   "lf_tonight": 0.171,
+   "lf_tonight": 0.169,
    "slot": 10,
    "is_captain": false
   },
@@ -198,12 +198,12 @@
    "form": 9.0,
    "xgi90": 0.5913978494623656,
    "mins_share": 0.93,
-   "sel": 23.7,
+   "sel": 23.8,
    "proj3": 9.46,
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": 0.471,
+   "lf_tonight": 0.474,
    "slot": 11,
    "is_captain": false
   },
@@ -237,7 +237,7 @@
    "status": "a",
    "news": "",
    "chance": 100,
-   "lf_tonight": 0.119,
+   "lf_tonight": 0.12,
    "slot": 13,
    "is_captain": false
   },
@@ -254,7 +254,7 @@
    "status": "d",
    "news": "Calf injury - 50% chance of playing",
    "chance": 50,
-   "lf_tonight": -0.658,
+   "lf_tonight": -0.66,
    "slot": 14,
    "is_captain": false
   },
@@ -271,17 +271,57 @@
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": -0.845,
+   "lf_tonight": -0.85,
    "slot": 15,
    "is_captain": false
   }
  ],
  "suggestions": [
   {
+   "sell": "Manzambi",
+   "reasons": [
+    "Doubtful: Calf injury - 75% chance of playing (75% chance)",
+    "minutes risk: 51% of available minutes"
+   ],
+   "buys": [
+    {
+     "name": "Tavernier",
+     "why": [
+      "form 6.5, 5.8 ppg",
+      "xGI/90 0.61",
+      "next 3: NFO(H) FUL(A) BHA(H) (FDR 3.3)",
+      "31.4% owned (template)",
+      "99k net transfers in this GW"
+     ],
+     "delta": 3.86
+    },
+    {
+     "name": "E.Le F\u00e9e",
+     "why": [
+      "form 6.5, 4.6 ppg",
+      "xGI/90 0.59",
+      "next 3: AVL(A) TOT(H) LIV(A) (FDR 3.3)",
+      "2.8% owned (differential)"
+     ],
+     "delta": 3.46
+    },
+    {
+     "name": "Ayari",
+     "why": [
+      "form 7.0, 5.1 ppg",
+      "xGI/90 0.31",
+      "next 3: HUL(A) NEW(H) BOU(A) (FDR 3.0)",
+      "2.4% owned (differential)"
+     ],
+     "delta": 3.4
+    }
+   ]
+  },
+  {
    "sell": "Walle Egeli",
    "reasons": [
     "minutes risk: 2% of available minutes",
-    "price fall risk tonight (-84% of the way to a drop)"
+    "price fall risk tonight (-85% of the way to a drop)"
    ],
    "buys": [
     {
@@ -291,7 +331,7 @@
       "xGI/90 0.82",
       "next 3: BRE(A) LIV(H) AVL(A) (FDR 3.7)",
       "10.7% owned",
-      "194k net transfers in this GW"
+      "196k net transfers in this GW"
      ],
      "delta": 8.19
     },
@@ -340,7 +380,7 @@
       "form 6.0, 5.4 ppg",
       "xGC/90 1.26",
       "next 3: CHE(A) COV(H) MCI(A) (FDR 3.7)",
-      "6.4% owned (differential)",
+      "6.5% owned (differential)",
       "price rise likely tonight (83%), buy before it goes up"
      ],
      "delta": 4.6
@@ -369,9 +409,9 @@
       "form 10.2, 6.3 ppg",
       "xGC/90 0.87",
       "next 3: NEW(A) MCI(H) BRE(A) (FDR 3.7)",
-      "24.5% owned",
+      "24.6% owned",
       "price rise likely tonight (92%), buy before it goes up",
-      "122k net transfers in this GW"
+      "124k net transfers in this GW"
      ],
      "delta": 8.38
     },
@@ -381,8 +421,8 @@
       "form 7.5, 7.0 ppg",
       "xGC/90 1.36",
       "next 3: HUL(A) NEW(H) BOU(A) (FDR 3.0)",
-      "9.2% owned (differential)",
-      "144k net transfers in this GW"
+      "9.3% owned (differential)",
+      "147k net transfers in this GW"
      ],
      "delta": 6.55
     },
@@ -399,45 +439,6 @@
    ]
   },
   {
-   "sell": "Manzambi",
-   "reasons": [
-    "minutes risk: 51% of available minutes"
-   ],
-   "buys": [
-    {
-     "name": "Tavernier",
-     "why": [
-      "form 6.5, 5.8 ppg",
-      "xGI/90 0.61",
-      "next 3: NFO(H) FUL(A) BHA(H) (FDR 3.3)",
-      "31.3% owned (template)",
-      "97k net transfers in this GW"
-     ],
-     "delta": 2.28
-    },
-    {
-     "name": "E.Le F\u00e9e",
-     "why": [
-      "form 6.5, 4.6 ppg",
-      "xGI/90 0.59",
-      "next 3: AVL(A) TOT(H) LIV(A) (FDR 3.3)",
-      "2.7% owned (differential)"
-     ],
-     "delta": 1.88
-    },
-    {
-     "name": "Ayari",
-     "why": [
-      "form 7.0, 5.1 ppg",
-      "xGI/90 0.31",
-      "next 3: HUL(A) NEW(H) BOU(A) (FDR 3.0)",
-      "2.3% owned (differential)"
-     ],
-     "delta": 1.82
-    }
-   ]
-  },
-  {
    "sell": "Mbeumo",
    "reasons": [
     "price fall risk tonight (-78% of the way to a drop)"
@@ -449,8 +450,8 @@
       "form 6.5, 5.8 ppg",
       "xGI/90 0.61",
       "next 3: NFO(H) FUL(A) BHA(H) (FDR 3.3)",
-      "31.3% owned (template)",
-      "97k net transfers in this GW"
+      "31.4% owned (template)",
+      "99k net transfers in this GW"
      ],
      "delta": 2.7
     },
@@ -460,7 +461,7 @@
       "form 6.5, 4.6 ppg",
       "xGI/90 0.59",
       "next 3: AVL(A) TOT(H) LIV(A) (FDR 3.3)",
-      "2.7% owned (differential)"
+      "2.8% owned (differential)"
      ],
      "delta": 2.3
     },
@@ -470,7 +471,7 @@
       "form 7.0, 5.1 ppg",
       "xGI/90 0.31",
       "next 3: HUL(A) NEW(H) BOU(A) (FDR 3.0)",
-      "2.3% owned (differential)"
+      "2.4% owned (differential)"
      ],
      "delta": 2.24
     }
@@ -521,8 +522,8 @@
   "Gomez",
   "Raya",
   "Trafford",
-  "Tarkowski",
   "McGinn",
+  "Tarkowski",
   "Doku",
   "Marmoush",
   "Justin",
@@ -534,13 +535,13 @@
   "Steele",
   "J.Fletcher",
   "Frimpong",
+  "Mingueza",
   "Hamer",
   "Cook",
   "McConnell",
-  "Mingueza",
   "Palacios",
   "Azeez",
-  "McNeil",
+  "Darlow",
   "Georginio"
  ],
  "lineup_alerts": [
