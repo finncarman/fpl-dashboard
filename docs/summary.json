@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T22:30:21.616424+00:00",
+ "generated": "2026-11-15T01:12:14.641032+00:00",
  "next_gw": 11,
  "deadline": "2026-11-21T11:00:00+00:00",
  "entry": {
@@ -8,7 +8,7 @@
   "overall_rank": 760909,
   "points": 654,
   "gw_points": 56,
-  "gw_rank": 5169808,
+  "gw_rank": 5169794,
   "bank": 2.2,
   "value": 102.8,
   "free_transfers": null,
@@ -28,12 +28,12 @@
    "form": 6.8,
    "xgi90": 0.001,
    "mins_share": 1.0,
-   "sel": 47.5,
+   "sel": 47.6,
    "proj3": 7.03,
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": 0.905,
+   "lf_tonight": 0.93,
    "slot": 1,
    "is_captain": false
   },
@@ -50,7 +50,7 @@
    "status": "a",
    "news": "",
    "chance": 100,
-   "lf_tonight": 0.057,
+   "lf_tonight": 0.066,
    "slot": 2,
    "is_captain": true
   },
@@ -67,7 +67,7 @@
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": 0.151,
+   "lf_tonight": 0.171,
    "slot": 3,
    "is_captain": false
   },
@@ -84,7 +84,7 @@
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": 0.292,
+   "lf_tonight": 0.3,
    "slot": 4,
    "is_captain": false
   },
@@ -96,12 +96,12 @@
    "form": 4.2,
    "xgi90": 0.5369318181818182,
    "mins_share": 0.9777777777777777,
-   "sel": 48.1,
+   "sel": 48.2,
    "proj3": 6.38,
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": 0.239,
+   "lf_tonight": 0.255,
    "slot": 5,
    "is_captain": false
   },
@@ -113,12 +113,12 @@
    "form": 5.2,
    "xgi90": 0.49587852494577006,
    "mins_share": 0.5122222222222222,
-   "sel": 8.6,
+   "sel": 8.5,
    "proj3": 3.8,
    "status": "d",
    "news": "Calf injury - 75% chance of playing",
    "chance": 75,
-   "lf_tonight": 0.462,
+   "lf_tonight": 0.453,
    "slot": 6,
    "is_captain": false
   },
@@ -135,7 +135,7 @@
    "status": "a",
    "news": "",
    "chance": 100,
-   "lf_tonight": 0.465,
+   "lf_tonight": 0.469,
    "slot": 7,
    "is_captain": false
   },
@@ -152,7 +152,7 @@
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": 0.504,
+   "lf_tonight": 0.528,
    "slot": 8,
    "is_captain": false
   },
@@ -164,12 +164,12 @@
    "form": 3.2,
    "xgi90": 0.5973094170403588,
    "mins_share": 0.9911111111111112,
-   "sel": 19.1,
+   "sel": 19.0,
    "proj3": 4.96,
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": -0.806,
+   "lf_tonight": -0.833,
    "slot": 9,
    "is_captain": false
   },
@@ -186,7 +186,7 @@
    "status": "a",
    "news": "",
    "chance": 100,
-   "lf_tonight": 0.167,
+   "lf_tonight": 0.165,
    "slot": 10,
    "is_captain": false
   },
@@ -203,7 +203,7 @@
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": 0.501,
+   "lf_tonight": 0.537,
    "slot": 11,
    "is_captain": false
   },
@@ -220,7 +220,7 @@
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": -0.886,
+   "lf_tonight": -0.903,
    "slot": 12,
    "is_captain": false
   },
@@ -232,12 +232,12 @@
    "form": 7.5,
    "xgi90": 0.242,
    "mins_share": 1.0,
-   "sel": 14.7,
+   "sel": 14.8,
    "proj3": 7.99,
    "status": "a",
    "news": "",
    "chance": 100,
-   "lf_tonight": 0.136,
+   "lf_tonight": 0.155,
    "slot": 13,
    "is_captain": false
   },
@@ -254,7 +254,7 @@
    "status": "d",
    "news": "Calf injury - 50% chance of playing",
    "chance": 50,
-   "lf_tonight": -0.675,
+   "lf_tonight": -0.697,
    "slot": 14,
    "is_captain": false
   },
@@ -271,7 +271,7 @@
    "status": "a",
    "news": "",
    "chance": null,
-   "lf_tonight": -0.868,
+   "lf_tonight": -0.893,
    "slot": 15,
    "is_captain": false
   }
@@ -290,8 +290,8 @@
       "form 6.5, 5.8 ppg",
       "xGI/90 0.61",
       "next 3: NFO(H) FUL(A) BHA(H) (FDR 3.3)",
-      "31.4% owned (template)",
-      "105k net transfers in this GW"
+      "31.5% owned (template)",
+      "110k net transfers in this GW"
      ],
      "delta": 3.86
     },
@@ -321,7 +321,7 @@
    "sell": "Walle Egeli",
    "reasons": [
     "minutes risk: 2% of available minutes",
-    "price fall risk tonight (-86% of the way to a drop)"
+    "price fall risk tonight (-89% of the way to a drop)"
    ],
    "buys": [
     {
@@ -331,7 +331,7 @@
       "xGI/90 0.82",
       "next 3: BRE(A) LIV(H) AVL(A) (FDR 3.7)",
       "10.8% owned",
-      "200k net transfers in this GW"
+      "204k net transfers in this GW"
      ],
      "delta": 8.19
     },
@@ -361,7 +361,7 @@
    "sell": "Dubravka",
    "reasons": [
     "minutes risk: 0% of available minutes",
-    "price fall risk tonight (-88% of the way to a drop)"
+    "price fall risk tonight (-90% of the way to a drop)"
    ],
    "buys": [
     {
@@ -381,7 +381,7 @@
       "xGC/90 1.26",
       "next 3: CHE(A) COV(H) MCI(A) (FDR 3.7)",
       "6.5% owned (differential)",
-      "price rise likely tonight (84%), buy before it goes up"
+      "price rise likely tonight (86%), buy before it goes up"
      ],
      "delta": 4.6
     },
@@ -409,9 +409,8 @@
       "form 10.2, 6.3 ppg",
       "xGC/90 0.87",
       "next 3: NEW(A) MCI(H) BRE(A) (FDR 3.7)",
-      "24.6% owned",
-      "price rise likely tonight (97%), buy before it goes up",
-      "130k net transfers in this GW"
+      "24.7% owned",
+      "135k net transfers in this GW"
      ],
      "delta": 8.38
     },
@@ -422,7 +421,7 @@
       "xGC/90 1.36",
       "next 3: HUL(A) NEW(H) BOU(A) (FDR 3.0)",
       "9.4% owned (differential)",
-      "155k net transfers in this GW"
+      "162k net transfers in this GW"
      ],
      "delta": 6.55
     },
@@ -432,7 +431,7 @@
       "form 7.0, 4.2 ppg",
       "xGC/90 1.13",
       "next 3: NFO(H) FUL(A) BHA(H) (FDR 3.3)",
-      "3.0% owned (differential)"
+      "3.1% owned (differential)"
      ],
      "delta": 5.45
     }
@@ -441,7 +440,7 @@
   {
    "sell": "Mbeumo",
    "reasons": [
-    "price fall risk tonight (-80% of the way to a drop)"
+    "price fall risk tonight (-83% of the way to a drop)"
    ],
    "buys": [
     {
@@ -450,8 +449,8 @@
       "form 6.5, 5.8 ppg",
       "xGI/90 0.61",
       "next 3: NFO(H) FUL(A) BHA(H) (FDR 3.3)",
-      "31.4% owned (template)",
-      "105k net transfers in this GW"
+      "31.5% owned (template)",
+      "110k net transfers in this GW"
      ],
      "delta": 2.7
     },
@@ -517,7 +516,6 @@
   }
  ],
  "risers": [
-  "Konsa",
   "Suzuki",
   "Gomez",
   "Raya",
@@ -528,21 +526,22 @@
   "Marmoush",
   "N.Jackson",
   "Justin",
-  "Rayan"
+  "Rayan",
+  "Rudoni"
  ],
  "fallers": [
-  "Roefs",
-  "Steele",
   "J.Fletcher",
-  "Frimpong",
   "Hamer",
   "Mingueza",
   "Cook",
   "McConnell",
-  "Palacios",
   "Georginio",
+  "Palacios",
   "Darlow",
-  "Heaven"
+  "Heaven",
+  "Hjert\u00f8-Dahl",
+  "Mitchell",
+  "McNeil"
  ],
  "lineup_alerts": [
   {
